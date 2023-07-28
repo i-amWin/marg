@@ -19,7 +19,7 @@ export default function DashBoardLink({ show }: { show: boolean }) {
                 initial={{ translateX: "-100%" }}
                 animate={{ translateX: 0 }}
               >
-                Home
+                Dashboard
               </motion.span>
             )}
           </AnimatePresence>
