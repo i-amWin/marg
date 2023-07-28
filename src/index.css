@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-300 text-white;
+}
+
+.bg-polka-dots {
+  background: radial-gradient(circle, #4b76d3 10%, transparent 11%),
+    radial-gradient(circle at bottom left, #4b76d3 5%, transparent 6%),
+    radial-gradient(circle at bottom right, #4b76d3 5%, transparent 6%),
+    radial-gradient(circle at top left, #4b76d3 5%, transparent 6%),
+    radial-gradient(circle at top right, #4b76d3 5%, transparent 6%);
+  background-size: 2em 2em;
+  background-color: #5788f0;
+  opacity: 1;
+}
